@@ -4,7 +4,7 @@ import PDFViewer from "./PdfViewer";
 export default function Home() {
   return (
     <main>
-      <PDFViewer file="/file.pdf" />
+      <PDFViewer file="https://s3.amazonaws.com/pdftron/downloads/pl/2gb-sample-file.pdf" />
     </main>
   );
 }

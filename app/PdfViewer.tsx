@@ -35,6 +35,14 @@ export default function PDFViewer({
     cMapUrl: "cmaps/",
     cMapPacked: true,
     standardFontDataUrl: "standard_fonts/",
+    httpHeaders: { 
+        'Content-Type': 'application/pdf', 
+        'Accept-Ranges': 'bytes', 
+        'Content-Encoding': 'identity', 
+        'Access-Control-Expose-Headers': 'Accept-Ranges , Content-Length, Content-Range', 
+        'Content-Length': '1000000', 
+        'Content-Range': 'bytes 0 - 999999 / 1000000', 
+    },
   };
 
   // Go to next page
