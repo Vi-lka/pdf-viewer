@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+mark {
+  /* background: #fcba03; */
+}
+
+.popupAnnotation > .popup {
+  color: #000 !important;
+}
